@@ -1,0 +1,200 @@
+/*------------ FONT-STYLES ---------------------------*/
+
+@font-face {
+    font-family: 'gotham';
+    src: url('fonts/gotham/flamante-roma-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: medium;
+
+}
+
+
+@font-face {
+    font-family: 'guillermonkey';
+    src: url('fonts/guillermonkey/guillermonkey-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'just a kid';
+    src: url('fonts/just_a_kid/just_a_kid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*------------ --------------------------------- ---------------------------*/
+body, html{
+
+    width: 100%;
+    height: 100%;
+    
+   
+}
+
+
+
+nav{
+    background:rgb(183, 241, 151);
+    width: 95%;
+    height: auto;
+   
+
+}
+
+#wrapper{
+    background: rgb(255, 125, 255);
+    width: 92%;
+    height: auto;
+   
+}
+
+
+
+.headtitle{
+    background: rgb(97, 97, 238);
+    width: 92%;
+    height: auto;
+    
+}
+
+.countdown{
+    background: rgb(255, 113, 113);
+    width: 92%;
+    height: auto;
+ 
+}
+
+.teaser{
+    background: rgb(255, 140, 0);
+    width: 92%;
+    height: auto;
+    
+}
+
+.download-links{
+    background: rgb(246, 255, 124);
+    width: 100%;
+    height: auto;
+  
+}
+
+.smiley{
+    background: rgb(113, 234, 255);
+    width: 92%;
+    height: auto;
+   
+}
+
+
+/*responsive text*/
+h1{
+font-size: 8vw;
+}
+
+h2{
+    font-size: 8vw;
+}
+
+.countdown{
+    font-size: 8vw;
+}
+
+/*responsive-bacground*/
+pre{
+    font-size: 3vw;
+}
+
+
+
+/*responsive imgs*/
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+/*img size*/
+
+nav{
+display: flex;
+justify-content: space-around;
+position: center;
+
+}
+
+.socialmedia{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.socialmedia li a img{
+    width: 20%;
+}
+
+  
+
+
+
+/* The default CSS is going to work on an iPhone */
+
+#wrapper {width:95%;  margin: 0 auto; }
+
+#header {width:100%; }
+
+#content {width:100%; }
+
+#sidebar {width:100%; }
+
+#footer {width:100%; }
+
+/* Keeps the items in the flexbox (display: flex) in a row */
+/* To change this property to column for example in the media queries, */
+/* you will have to include this one below as a default */
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+
+@media (min-width: 576px) {
+
+}
+
+
+/* // Medium devices (tablets, 768px and up)
+ */
+
+@media (min-width: 768px) {
+    /* Change the items in the flexbox in rows (so single column) */
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #wrapper {width:90%;  margin: 0 auto; }
+    
+    #content {width:70%; float:left; }
+    
+    #sidebar {width:30%; float:right; }
+}
+
+/* // Large devices (desktops, 992px and up)
+ */
+
+@media (min-width: 992px) {}
+
+/* // Extra large devices (large desktops, 1200px and up)
+ */
+
+
+@media (min-width: 1200px) {
+
+    #wrapper {width:90%;  margin: 0 auto; }
+    
+}
