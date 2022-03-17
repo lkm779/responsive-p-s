@@ -1,8 +1,18 @@
 /*------------ FONT-STYLES ---------------------------*/
 
 @font-face {
+    font-family: 'Mercutio Nbp';
+    src: url('fonts/mercutio_sc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
     font-family: 'gotham';
-    src: url('fonts/gotham/flamante-roma-medium-webfont.woff') format('woff');
+    src: url('fonts/flamante-roma-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: medium;
 
@@ -11,7 +21,7 @@
 
 @font-face {
     font-family: 'guillermonkey';
-    src: url('fonts/guillermonkey/guillermonkey-webfont.woff') format('woff');
+    src: url('fonts/guillermonkey-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -20,122 +30,169 @@
 
 @font-face {
     font-family: 'just a kid';
-    src: url('fonts/just_a_kid/just_a_kid-webfont.woff') format('woff');
+    src: url('fonts/just_a_kid-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 /*------------ --------------------------------- ---------------------------*/
-body, html{
+body{
 
-    width: 100%;
-    height: 100%;
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
    
 }
 
-
-
+/*---------------------------------*/
 nav{
-    background:rgb(183, 241, 151);
-    width: 95%;
+  
+    background:rgb(176, 255, 124);
     height: auto;
-   
-
+    width: 95%;
 }
+
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 10%;
+}
+
+.socialmedia li a img{
+    width: 5vw;
+}
+
+/*---------------------------------*/
+
+
 
 #wrapper{
-    background: rgb(255, 125, 255);
-    width: 92%;
+    background: rgb(255, 124, 255);
+    width: 50%;
     height: auto;
+    
+    
+    
    
 }
 
 
 
 .headtitle{
-    background: rgb(97, 97, 238);
-    width: 92%;
-    height: auto;
-    
+    background: rgb(124, 124, 255);
+    width: 100%;
+    height: auto;   
 }
 
+h1{
+    font-size: 8vw;
+    font-family: guillermonkey, Arial, Helvetica, sans-serif;
+    padding-left: 13%; /*flexboxtext instead?*/
+    }
+
+
+/*---------------------------------*/
+
+
+
+
 .countdown{
-    background: rgb(255, 113, 113);
-    width: 92%;
+    background: rgb(255, 123, 123);
+    width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
  
 }
 
+.countdown{
+    font-size: 8vw;
+    font-family: 'MERCUTIO NBP', gotham;
+}
+
+
+
+
 .teaser{
-    background: rgb(255, 140, 0);
-    width: 92%;
+    background: rgb(255, 196, 123);
+    width: 100%;
     height: auto;
     
 }
 
+h2{
+    font-size: 8vw;
+    font-family: just a kid, Helvetica;
+    padding-left: 13%; /*flexboxtext instead?*/
+}
+
+/*---------------------------------*/
+
 .download-links{
-    background: rgb(246, 255, 124);
+    background: rgb(246, 255, 123);
     width: 100%;
     height: auto;
   
 }
 
+.storelinks{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15%; /*--good practice?---*/
+}
+
+
+
+ .appstore img {
+width: 15vw;
+}
+
+.playstore img{
+    width: 22vw;
+
+}
+
+.qrcode img{
+    width: 8vw;
+
+
+}
+
+
+
+
+/*---------------------------------*/
+
 .smiley{
-    background: rgb(113, 234, 255);
-    width: 92%;
+    background: rgb(124, 235, 255);
+    width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
    
 }
 
-
-/*responsive text*/
-h1{
-font-size: 8vw;
-}
-
-h2{
-    font-size: 8vw;
-}
-
-.countdown{
-    font-size: 8vw;
-}
-
-/*responsive-bacground*/
 pre{
-    font-size: 3vw;
+    font-size: 2vw;
+    padding-right: 4.5%;
 }
 
 
 
-/*responsive imgs*/
-.img-fluid{
-    max-width: 100%;
-    height: auto;
-    
-}
 
-/*img size*/
 
-nav{
-display: flex;
-justify-content: space-around;
-position: center;
 
-}
 
-.socialmedia{
-    text-decoration: none;
-    list-style-type: none;
-}
 
-.socialmedia li a img{
-    width: 20%;
-}
-
-  
 
 
 
