@@ -42,7 +42,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-   
+    background: rgb(255, 124, 255);
 }
 
 /*---------------------------------*/
@@ -86,7 +86,8 @@ nav{
 .headtitle{
     background: rgb(124, 124, 255);
     width: 100%;
-    height: auto;   
+    height: auto;  
+    margin-top: 0%; 
 }
 
 h1{
@@ -178,12 +179,17 @@ width: 15vw;
     height: auto;
     display: flex;
     justify-content: center;
+    background-image: url(https://media1.giphy.com/media/j3kgccVddHsPu/giphy.gif?cid=ecf05e470soheknf8io8lbs8gubxjrg78qwilmc24vb1w43z&rid=giphy.gif&ct=gl);
+    background-size: cover;
+    background-position: center;
+
    
 }
 
 pre{
     font-size: 2vw;
     padding-right: 4.5%;
+    color: rgb(255, 124, 255);
 }
 
 
