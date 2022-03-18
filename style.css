@@ -84,12 +84,12 @@ header
 
 .tik img{
     width: 2vw;
-    padding-bottom: 50%;
+    padding-bottom: 200%;
 }
 .logoapp img{
     padding-top: 15%;
     padding-left: 15%;
-    width: 12vw;
+    width: 10vw;
     
 }
 
@@ -178,24 +178,25 @@ h2{
     list-style-type: none;
     justify-content: center;
     align-items: center;
-    padding-right: 17%; /*--good practice?---*/
+    padding-right: 11%; /*--good practice?---*/
     
 
 }
 
 
+ .appstore img{
+width: 20.3vw;
 
- .appstore img {
-width: 15vw;
+
+}
+
+.playstore img {
+ padding-top: 10%;
+ width: 25vw;
 
 }
 
-.playstore img{
-    width: 22vw;
-
-    
-
-}
+   
 
 .qrcode img{
     width: 8vw;
