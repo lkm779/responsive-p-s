@@ -46,7 +46,7 @@ body{
     color: rgb(255, 124, 255);
 }
 
-nav, .headtitle, .countdown, .download-links, .teaser, .{
+nav, .headtitle, .countdown, .download-links, .teaser {
     border-radius: 1rem;
 }
 
