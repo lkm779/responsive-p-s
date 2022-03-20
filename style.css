@@ -44,20 +44,19 @@ body{
     flex-direction: column;
     background: rgb(255, 124, 255);
     color: rgb(255, 124, 255);
-    
+}
 
-    
-
+nav, .headtitle, .countdown, .download-links, .teaser, .smiley{
+    border-radius: 1rem;
 }
 
 /*---------------------------------*/
 nav{
-  
     background:rgb(176, 255, 124);
     height: auto;
-    width: 95%;
+    width: 100%;
     flex-direction: column;
-    margin-bottom: 7vw;
+    /* margin-bottom: 7vw; */
 }
 
 header
@@ -65,19 +64,20 @@ header
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
+        /* align-items: flex-start; */
     }
 
 
 .socialmedia{
-    display: flex;
+    /* display: flex;
+    align-items: flex-end;
+    flex-direction: column; */
     justify-content: space-around;
     text-decoration: none;
     list-style-type: none;
-    align-items: flex-end;
-    flex-direction: column;
-    padding-right: 2.5%;
-    margin-top: 1%;
+    padding-right: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .ig img{
@@ -86,7 +86,6 @@ header
 
 .tik img{
     width: 4vw;
-    padding-bottom: 200%;
 }
 .logoapp img{
     padding-top: 10%;
@@ -95,7 +94,7 @@ header
     
 }
 
-/*---------------------------------*/
+/*-------------- content -------------------*/
 
 
 
@@ -103,9 +102,6 @@ header
     background: rgb(255, 124, 255);
     width: 50%;
     height: auto;
-    
-    
-    
    
 }
 
@@ -115,15 +111,15 @@ header
     background: rgb(124, 124, 255);
     width: 100%;
     height: auto;
-    margin-bottom: 1vw;/*?*/
-
+    margin-bottom: 1rem;/*?*/
+    text-align: center;
 }
 
 h1{
     font-size: 8vw;
     font-family: guillermonkey, Arial, Helvetica, sans-serif;
-    padding-left: 13%; /*flexboxtext instead?*/
-    -webkit-text-stroke: 0.5px rgb(0, 0, 175);; /* width and color */
+    padding: 1rem;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 175); /* width and color */
     }
 
 
@@ -138,7 +134,7 @@ h1{
     height: auto;
     display: flex;
     justify-content: center; 
-    margin-bottom: 0.1%;/*?*/
+    margin-bottom: 1rem;
 
 }
 
@@ -146,17 +142,18 @@ h1{
     font-size: 6.5vw;
     font-family: 'MERCUTIO NBP', gotham;
     -webkit-text-stroke: 1.5px rgb(175, 83, 83); /* width and color */
-    padding: 1vw;
+    padding: 2%;
   border-radius: 5px;
   background: rgb(252, 109, 109);
-  margin: 0.5px;
+  /* margin: 0.5px; */
 }
 
 .teaser{
     background: rgb(255, 196, 123);
     width: 100%;
     height: auto;
-    margin-bottom: 1%;/*?*/
+    margin-bottom: 1rem;/*?*/
+    text-align: center;
 
     
 }
@@ -164,7 +161,7 @@ h1{
 h2{
     font-size: 8vw;
     font-family: just a kid, Helvetica;
-    padding-left: 13%; /*flexboxtext instead? second line text centre?*/ 
+    padding: 1rem; /*flexboxtext instead? No (see my comment on line 169), second line text centre? Yes*/ 
 
 }
 
@@ -172,7 +169,7 @@ h3{
 
     font-size: 8vw;
     font-family: just a kid, Helvetica;
-    padding-left: 20%; /*flexboxtext instead?*/
+    padding-left: 20%; /*flexboxtext instead? No - because this is only one element (unless you wnated this eleemnt to be in the middle of it's parent elemnt with fixed width and height)*/
     padding-bottom:0% ;
 
 
@@ -184,7 +181,7 @@ h3{
     background: rgb(246, 255, 123);
     width: 100%;
     height: auto;
-    margin-bottom: 1%;/*?*/
+    margin-bottom: 1rem;/*?*/
 
 
     
@@ -196,30 +193,22 @@ h3{
     flex-direction: row;
     text-decoration: none;
     list-style-type: none;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding-right: 11%; /*--good practice?---*/
-    
+    /* padding-right: 2rem; --good practice? No - you wanna avoid using percentages on paddings and margins--- */
+}
 
+.storelinks > li{
+    padding: 0.5rem;
 }
 
 
  .appstore img{
 width: 20.3vw;
-
-
-
-
-
 }
 
 .playstore img {
  width: 23.3vw;
-
-
-
- 
-
 }
 
    
@@ -228,9 +217,6 @@ width: 20.3vw;
     width: 8vw;
     border: 3px solid rgb(255, 124, 255);
     border-radius: 5%;
-    
-
-
 }
 
 
@@ -241,6 +227,7 @@ width: 20.3vw;
 .smiley{
     background: rgb(124, 235, 255);
     width: 100%;
+    /* max-width: 600px; */
     height: auto;
     display: flex;
     justify-content: center;
@@ -252,7 +239,7 @@ width: 20.3vw;
 }
 
 pre{
-    font-size: 2vw;
+    font-size: 1rem;
     padding-right: 9%;
     color: rgb(255, 124, 255);
 }
@@ -269,7 +256,7 @@ pre{
 
 /* The default CSS is going to work on an iPhone */
 
-#wrapper {width:95%;  margin: 0 auto; }
+#wrapper {width:95%;  margin: 0 auto; padding: 0px; }
 
 #header {width:100%; }
 
@@ -287,6 +274,49 @@ pre{
 
 @media (min-width: 576px) {
 
+    h1,h2,h3{
+        font-size: 2rem;
+    }
+    .ig img, .tik img{
+        width: 2rem;
+    }
+    .logoapp img{
+        padding: 1rem;
+        width: 5rem;
+    }
+    #wrapper{
+        width: 100%;
+        /* padding: 1rem; */
+    }
+
+    .countdown div{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+     .appstore img{
+        width: 6rem;
+    }
+
+    .playstore img {
+        width: 6rem;
+    }
+    .qrcode img{
+        width: 3rem;
+    }
+
+    /* nav{
+        margin-bottom: 1rem;
+    } */
+}
+
+@media (max-width: 576px) {
+
+    pre{
+        font-size: 2vw;
+    }
+
+
 }
 
 
@@ -295,22 +325,58 @@ pre{
 
 @media (min-width: 768px) {
     /* Change the items in the flexbox in rows (so single column) */
-    nav{
+    /* nav{
         display: flex;
         flex-direction: row;
-    }
+        
+    } */
 
-    #wrapper {width:90%;  margin: 0 auto; }
-    
+    /* #wrapper {width:90%;  margin: 0 auto; } */
+/*     
     #content {width:70%; float:left; }
     
-    #sidebar {width:30%; float:right; }
+    #sidebar {width:30%; float:right; } */
+
+
+    .countdown div{
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    .appstore img{
+        width: 8rem;
+    }
+
+    .playstore img {
+        width: 8rem;
+    }
+    .qrcode img{
+        width: 4rem;
+    }
+
 }
 
 /* // Large devices (desktops, 992px and up)
  */
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+
+    .countdown div{
+        font-size: 4rem;
+        padding: 1rem;
+    }
+
+    .appstore img{
+        width: 10rem;
+    }
+
+    .playstore img {
+        width: 10rem;
+    }
+    .qrcode img{
+        width: 5rem;
+    }
+}
 
 /* // Extra large devices (large desktops, 1200px and up)
  */
@@ -318,6 +384,6 @@ pre{
 
 @media (min-width: 1200px) {
 
-    #wrapper {width:90%;  margin: 0 auto; }
+    /* #wrapper {width:90%;  margin: 0 auto; } */
     
 }
