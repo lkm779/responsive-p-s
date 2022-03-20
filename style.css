@@ -56,6 +56,8 @@ nav{
     background:rgb(176, 255, 124);
     height: auto;
     width: 95%;
+    flex-direction: column;
+    margin-bottom: 7vw;
 }
 
 header
@@ -79,17 +81,17 @@ header
 }
 
 .ig img{
-    width: 2vw;
+    width: 4vw;
 }
 
 .tik img{
-    width: 2vw;
+    width: 4vw;
     padding-bottom: 200%;
 }
 .logoapp img{
-    padding-top: 15%;
+    padding-top: 10%;
     padding-left: 15%;
-    width: 10vw;
+    width: 19vw;
     
 }
 
@@ -112,8 +114,9 @@ header
 .headtitle{
     background: rgb(124, 124, 255);
     width: 100%;
-    height: auto;  
-    margin-top: 0%; 
+    height: auto;
+    margin-bottom: 1vw;/*?*/
+
 }
 
 h1{
@@ -134,30 +137,44 @@ h1{
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
- 
+    justify-content: center; 
+    margin-bottom: 0.1%;/*?*/
+
 }
 
-.countdown{
-    font-size: 7.5vw;
+.countdown div{
+    font-size: 6.5vw;
     font-family: 'MERCUTIO NBP', gotham;
-    -webkit-text-stroke: 1.5px rgb(165, 67, 67); /* width and color */
+    -webkit-text-stroke: 1.5px rgb(175, 83, 83); /* width and color */
+    padding: 1vw;
+  border-radius: 5px;
+  background: rgb(252, 109, 109);
+  margin: 0.5px;
 }
-
-
-
 
 .teaser{
     background: rgb(255, 196, 123);
     width: 100%;
     height: auto;
+    margin-bottom: 1%;/*?*/
+
     
 }
 
 h2{
     font-size: 8vw;
     font-family: just a kid, Helvetica;
-    padding-left: 13%; /*flexboxtext instead?*/
+    padding-left: 13%; /*flexboxtext instead? second line text centre?*/ 
+
+}
+
+h3{
+
+    font-size: 8vw;
+    font-family: just a kid, Helvetica;
+    padding-left: 20%; /*flexboxtext instead?*/
+    padding-bottom:0% ;
+
 
 }
 
@@ -167,6 +184,9 @@ h2{
     background: rgb(246, 255, 123);
     width: 100%;
     height: auto;
+    margin-bottom: 1%;/*?*/
+
+
     
   
 }
@@ -176,7 +196,7 @@ h2{
     flex-direction: row;
     text-decoration: none;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding-right: 11%; /*--good practice?---*/
     
@@ -188,11 +208,17 @@ h2{
 width: 20.3vw;
 
 
+
+
+
 }
 
 .playstore img {
- padding-top: 10%;
- width: 25vw;
+ width: 23.3vw;
+
+
+
+ 
 
 }
 
@@ -201,6 +227,8 @@ width: 20.3vw;
 .qrcode img{
     width: 8vw;
     border: 3px solid rgb(255, 124, 255);
+    border-radius: 5%;
+    
 
 
 }
@@ -247,17 +275,12 @@ pre{
 
 #content {width:100%; }
 
-#sidebar {width:100%; }
 
-#footer {width:100%; }
 
 /* Keeps the items in the flexbox (display: flex) in a row */
 /* To change this property to column for example in the media queries, */
 /* you will have to include this one below as a default */
-nav{
-    display: flex;
-    flex-direction: column;
-}
+
 
 /*// Small devices (landscape phones, 576px and up)*/
 
