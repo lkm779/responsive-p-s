@@ -42,7 +42,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: rgb(226, 252, 255);
+    background: rgb(252, 252, 252);
     color: rgb(226, 252, 255);
 }
 
@@ -52,7 +52,7 @@ nav, .headtitle, .countdown, .download-links, .teaser {
 
 /*---------------------------------*/
 nav{
-    background:rgb(226, 252, 255);
+    background:rgb(255, 255, 255);
     height: auto;
     width: 100%;
     flex-direction: column;
@@ -76,20 +76,26 @@ header
     justify-content: space-around;
     text-decoration: none;
     list-style-type: none;
-    padding-right: 0.5rem;
+    padding-right: 0.4rem;
     margin-top: 0.5rem;
 }
 
 .ig img{
-    width: 4vw;
+    width: 2.5vw;
+    
 }
 
 .tik img{
-    width: 4vw;
+    width: 2.5vw;
 }
+
+.socialmedia li{
+    padding: 0.2rem;
+}
+
 .logoapp img{
-    padding-top: 10%;
-    padding-left: 15%;
+    padding-top: 0.3rem;
+    padding-left: 0.4rem;
     width: 19vw;
     
 }
@@ -99,7 +105,7 @@ header
 
 
 #wrapper{
-    background: rgb(226, 252, 255);
+    background: rgb(255, 255, 255);
     width: 50%;
     height: auto;
    
@@ -116,11 +122,12 @@ header
 }
 
 h1{
-    font-size: 8vw;
+    font-size: 2.5rem;
     font-family: guillermonkey, Arial, Helvetica, sans-serif;
-    padding: 1rem;
+    padding: 0rem;
     -webkit-text-stroke: 0.1vw rgb(82,73,42,1); /* width and color */
     color: rgb(1, 251,234, 1);
+    margin: 0;
     }
 
 
@@ -138,7 +145,8 @@ h1{
     margin: 0 auto;
     text-align: center;
     font-family: guillermonkey;
-    padding: 2.5rem;
+    padding-top: 5.7rem;
+    padding-bottom: 2rem;
     
   }
   
@@ -174,7 +182,7 @@ h1{
 
 
 .teaser{
-    background: rgb(226, 252, 255);
+    background: rgb(255, 255, 255);
     width: 100%;
     height: auto;
     margin-bottom: 1rem;/*?*/
@@ -182,13 +190,16 @@ h1{
     
 
     
+
+    
 }
 
 h2{
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-family: just a kid, Helvetica;
     padding: 1vw; /*flexboxtext instead? No (see my comment on line 169), second line text centre? Yes*/ 
     color: rgb(253, 0, 253);
+    margin:0;
 }
 
 h3{
@@ -204,7 +215,7 @@ h3{
 /*---------------------------------*/
 
 .download-links{
-    background: rgb(226, 252, 255);
+    background: rgb(255, 255, 255);
     width: 100%;
     height: auto;
     margin-bottom: 1rem;/*?*/
@@ -231,18 +242,18 @@ h3{
 
 
  .appstore img{
-width: 20.3vw;
+width: 22.3vw;
 }
 
 .playstore img {
- width: 20.3vw;
+ width: 22.3vw;
 }
 
    
 
 .qrcode img{
     width: 8vw;
-    border-radius: 1vw;
+    border-radius: 0.5vw;
 }
 
 
