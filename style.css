@@ -70,9 +70,8 @@ header
 
 
 .socialmedia{
-    /* display: flex;
-    align-items: flex-end;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column; 
     justify-content: space-around;
     text-decoration: none;
     list-style-type: none;
@@ -81,15 +80,16 @@ header
 }
 
 .ig img{
-    width: 2.5vw;
+    width: 4vw;
     
 }
 
 .tik img{
-    width: 2.5vw;
+    width: 4vw;
 }
 
 .socialmedia li{
+    
     padding: 0.2rem;
 }
 
@@ -272,6 +272,8 @@ width: 22.3vw;
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
+    margin-bottom: 2rem;
+    
 
    
 }
