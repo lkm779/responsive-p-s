@@ -315,23 +315,25 @@ pre{
 @media (min-width: 576px) {
 
     h1,h2,h3{
-        font-size: 2rem;
+        font-size: 4rem;
     }
     .ig img, .tik img{
         width: 2rem;
     }
     .logoapp img{
         padding: 1rem;
-        width: 5rem;
+        width: 10rem;
     }
     #wrapper{
         width: 100%;
         /* padding: 1rem; */
     }
 
-    .countdown div{
+    .count li{
         font-size: 2rem;
-        padding: 1rem;
+    }
+    .count li span{
+        font-size: 3rem;
     }
 
      .appstore img{
