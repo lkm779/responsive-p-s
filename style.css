@@ -131,6 +131,8 @@ h1{
     }
 
 
+
+
 /*---------------------------------*/
 
 
@@ -209,6 +211,14 @@ h3{
     padding-left: 20%; /*flexboxtext instead? No - because this is only one element (unless you wnated this eleemnt to be in the middle of it's parent elemnt with fixed width and height)*/
     padding-bottom:0% ;
 
+
+}
+
+h4{
+    font-size: 1vw;
+    font-family: gotham , Helvetica;
+    padding: 10%; /*flexboxtext instead? No - because this is only one element (unless you wnated this eleemnt to be in the middle of it's parent elemnt with fixed width and height)*/
+    color: black;
 
 }
 
