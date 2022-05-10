@@ -222,6 +222,17 @@ h4{
 
 }
 
+h5{
+    font-size: 1.6rem;
+    font-family: guillermonkey, Arial, Helvetica, sans-serif;
+    padding-top: 10%;
+    -webkit-text-stroke: 0.1vw rgb(82,73,42,1); /* width and color */
+    color: rgb(1, 251,234, 1);
+    
+    
+
+}
+
 /*---------------------------------*/
 
 .download-links{
