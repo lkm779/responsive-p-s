@@ -220,7 +220,7 @@ h4{
     padding: 0% 10% 10% 10%; /*flexboxtext instead? No - because this is only one element (unless you wnated this eleemnt to be in the middle of it's parent elemnt with fixed width and height)*/
     color: black;
     text-align:justify;
-    line-height: 1rem;
+    line-height: 0.5rem;
     
 
 }
@@ -362,6 +362,10 @@ footer {width: 100%; }
 
 
 @media (min-width: 576px) {
+
+    h4{
+        line-height: 1rem;
+    }
 
     h1,h2,h3{
         font-size: 4rem;
