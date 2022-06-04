@@ -217,7 +217,7 @@ h3{
 h4{
     font-size: 1vw;
     font-family:  Helvetica;
-    padding: 10%; /*flexboxtext instead? No - because this is only one element (unless you wnated this eleemnt to be in the middle of it's parent elemnt with fixed width and height)*/
+    padding: 0% 10% 10% 10%; /*flexboxtext instead? No - because this is only one element (unless you wnated this eleemnt to be in the middle of it's parent elemnt with fixed width and height)*/
     color: black;
     text-align:justify;
     line-height: 1rem;
@@ -228,7 +228,6 @@ h4{
 h5{
     font-size: 1.6rem;
     font-family: guillermonkey, Arial, Helvetica, sans-serif;
-    padding-top: 10%;
     -webkit-text-stroke: 0.1vw rgb(82,73,42,1); /* width and color */
     color: rgb(1, 251,234, 1);
     
