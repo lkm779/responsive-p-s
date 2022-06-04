@@ -220,7 +220,8 @@ h4{
     padding: 10%; /*flexboxtext instead? No - because this is only one element (unless you wnated this eleemnt to be in the middle of it's parent elemnt with fixed width and height)*/
     color: black;
     text-align:justify;
-    line-height: 2rem;
+    line-height: 1rem;
+    
 
 }
 
@@ -451,6 +452,14 @@ footer {width: 100%; }
  */
 
 @media (min-width: 992px) {
+    
+    h4{
+    line-height: 2rem;
+} 
+
+    h5{
+        font-size: 4rem;
+    }
 
     .countdown div{
         font-size: 4rem;
