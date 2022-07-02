@@ -3,8 +3,6 @@ import { fetchApi } from "./fetchApi.js";
 export const presCountdown = async () => {
     const nextPres = await fetchApi()
 
-    console.log(nextPres)
-
     if (nextPres) {
         setInterval(() => {
             let presDate = new Date(nextPres.json().date)
