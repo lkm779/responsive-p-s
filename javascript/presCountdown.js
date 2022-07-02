@@ -5,7 +5,7 @@ export const presCountdown = async () => {
 
     if (nextPres) {
         setInterval(() => {
-            let presDate = new Date(nextPres.json().date)
+            let presDate = new Date(nextPres.date)
             let dateNow = new Date()
 
             let seconds = Math.floor((presDate - dateNow) / 1000);

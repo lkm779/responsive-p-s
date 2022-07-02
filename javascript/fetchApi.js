@@ -4,7 +4,7 @@ export const fetchApi = async () => {
     return await fetch(url)
         .then(response => {
             if (response.ok) {
-                response.json()
+                return response.json()
             } else {
                 throw new Error('No upcoming events')
             }
