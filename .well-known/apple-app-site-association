@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "26XPNT7352.app.codecandy.mypres",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
