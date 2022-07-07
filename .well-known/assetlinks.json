@@ -1,0 +1,9 @@
+    [{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.mypres.pres",
+        "sha256_cert_fingerprints":
+        ["BC:85:D6:2E:4D:AB:45:7C:BE:30:BB:4C:FA:16:3B:91:75:0C:D3:72:17:DC:25:49:17:3A:45:81:1D:40:D3:8A"]
+      }
+    }]
